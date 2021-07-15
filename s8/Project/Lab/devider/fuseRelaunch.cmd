@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/Home/Desktop/Lab/devider/test_isim_beh.exe" -prj "C:/Users/Home/Desktop/Lab/devider/test_beh.prj" "work.test" 

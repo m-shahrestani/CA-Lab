@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/Home/Desktop/lab9/CPU/CPU8BIT2.xst" -ofn "C:/Users/Home/Desktop/lab9/CPU/CPU8BIT2.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 CPU8BIT2.ngc CPU8BIT2.ngd  
-map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o CPU8BIT2_map.ncd CPU8BIT2.ngd CPU8BIT2.pcf 
-par -w -intstyle ise -ol high -t 1 CPU8BIT2_map.ncd CPU8BIT2.ncd CPU8BIT2.pcf 
-trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CPU8BIT2.twx CPU8BIT2.ncd -o CPU8BIT2.twr CPU8BIT2.pcf 
-xst -intstyle ise -ifn "C:/Users/Home/Desktop/S9_9728054-9733069/Project/lab9/CPU/CPU8BIT2.xst" -ofn "C:/Users/Home/Desktop/S9_9728054-9733069/Project/lab9/CPU/CPU8BIT2.syr" 
