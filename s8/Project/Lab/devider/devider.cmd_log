@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Home/Desktop/Lab/devider/devider.xst" -ofn "C:/Users/Home/Desktop/Lab/devider/devider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 devider.ngc devider.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o devider_map.ncd devider.ngd devider.pcf 
+par -w -intstyle ise -ol high -t 1 devider_map.ncd devider.ncd devider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml devider.twx devider.ncd -o devider.twr devider.pcf 

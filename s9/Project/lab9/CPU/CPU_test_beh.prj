@@ -1,0 +1,2 @@
+vhdl work "CPU8BIT2.vhd"
+vhdl work "CPU_test.vhd"

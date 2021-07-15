@@ -1,0 +1,8 @@
+EN dual_ram NULL C:/Users/MRSH/Documents/az/memories/Dual_RAM.vhd sub00/vhpl04 1605442008
+EN rom NULL C:/Users/MRSH/Documents/az/memories/ROM.vhd sub00/vhpl02 1605433981
+AR rom behavioral C:/Users/MRSH/Documents/az/memories/ROM.vhd sub00/vhpl03 1605433982
+AR ram behavioral C:/Users/MRSH/Documents/az/memories/RAM.vhd sub00/vhpl01 1605431123
+AR dual_ram behavioral C:/Users/MRSH/Documents/az/memories/Dual_RAM.vhd sub00/vhpl05 1605442009
+AR cam behavioral C:/Users/MRSH/Documents/az/memories/CAM.vhd sub00/vhpl07 1605445764
+EN ram NULL C:/Users/MRSH/Documents/az/memories/RAM.vhd sub00/vhpl00 1605431122
+EN cam NULL C:/Users/MRSH/Documents/az/memories/CAM.vhd sub00/vhpl06 1605445763
